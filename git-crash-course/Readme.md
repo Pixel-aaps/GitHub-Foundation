@@ -31,7 +31,7 @@ cd /workspace/tmp
 
 1. ### HTTPS
 ```sh
-git clone https://github.com/Avi6201123/OST-demo.git
+git clone https://github.com/Avi6201123/GitHub-Foundation.git
 cd OST-demo
 ```
 > You will need to generate a Personal Access Token(PAT)
@@ -70,7 +70,7 @@ Set the global editor
 git config --global core.editor emacs
 ```
 
-MAke a commit and commit message without opening an editor
+Make a commit and commit message without opening an editor
 ```
 git commit -m "Add another exclamation mark"
 ```
