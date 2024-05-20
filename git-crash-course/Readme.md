@@ -113,6 +113,10 @@ git branch <branch-name>
 ```sh
 git checkout <branch-name>
 ```
+```sh
+git push -u origin <branch-name>
+# -u --> --set-upstream 
+```
 ## Remotes
 
 ## Stashing
