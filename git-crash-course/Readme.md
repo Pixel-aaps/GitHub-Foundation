@@ -113,16 +113,31 @@ git branch <branch-name>
 ```sh
 git checkout <branch-name>
 ```
+
+## Remotes
+
+We can add remote but often you will just add remote via upstream  when adding a branch.
 ```sh
+git remote add ...
 git push -u origin <branch-name>
 # -u --> --set-upstream 
 ```
-## Remotes
 
 ## Stashing
-
+```sh
+git stash list
+git stash 
+git stash save my-name
+git stash apply
+git stash pop
+```
 ## Merging
 
+```sh
+git checkout dev
+git merge main
+
+```
 ## Add
 When we want to stage changes that will be included in the commit
 We can use the . to add all possible files.
